@@ -5,10 +5,10 @@ export const profile = {
 	author_name: 'Eda Şensu', // Author name to be highlighted in the papers section
 	research_areas: [
     { title: 'Marine Bioactive Peptides', description: 'ACE-inhibitory and antioxidant peptides from macroalgae', field: 'biology' },
-    { title: 'Nano & Micro-Encapsulation', description: 'Development of nanoliposomal and micro-encapsulation strategies to enhance stability, bioaccessibility, and bioactivity retention of food-derived bioactive compounds.', field: 'chemistry' },
-    { title: 'Green Extraction Technologies', description: 'Application of ultrasound-assisted enzymatic extraction (UAEE) methods for sustainable protein and bioactive compound recovery from marine biomass.', field: 'engineering' },
+    { title: 'Nano & Micro-Encapsulation', description: 'Protecting bioactives through gastrointestinal digestion', field: 'chemistry' },
+    { title: 'Green Extraction Technologies', description: 'Ultrasound-assisted enzymatic protein recovery', field: 'engineering' },
     { title: 'Metabolomics & Neuroprotection', description: 'Anti-Alzheimer potential of brown macroalgae', field: 'biology' },
-    { title: 'Functional Food Development', description: 'Formulation of health-promoting functional ingredients and nutraceuticals through sustainable marine biorefinery approaches and circular bioeconomy principles.', field: 'engineering' },
+    { title: 'Functional Food Development', description: 'Translating marine bioactives into health-promoting ingredients', field: 'engineering' },
 ],
 }
 
