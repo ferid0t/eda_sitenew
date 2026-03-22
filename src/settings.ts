@@ -4,10 +4,10 @@ export const profile = {
 	institute: 'İstanbul Gelişim Üniversitesi',
 	author_name: 'Eda Şensu', // Author name to be highlighted in the papers section
 	research_areas: [
-    { title: 'Marine Bioactive Peptides', description: 'Discovery and characterization of ACE-inhibitory and antioxidant peptides from macroalgal species including Ulva rigida, Gracilaria dura, and Cladostephus spongiosum.', field: 'biology' },
+    { title: 'Marine Bioactive Peptides', description: 'ACE-inhibitory and antioxidant peptides from macroalgae', field: 'biology' },
     { title: 'Nano & Micro-Encapsulation', description: 'Development of nanoliposomal and micro-encapsulation strategies to enhance stability, bioaccessibility, and bioactivity retention of food-derived bioactive compounds.', field: 'chemistry' },
     { title: 'Green Extraction Technologies', description: 'Application of ultrasound-assisted enzymatic extraction (UAEE) methods for sustainable protein and bioactive compound recovery from marine biomass.', field: 'engineering' },
-    { title: 'Metabolomics & Neuroprotection', description: 'Metabolomics-driven evaluation of anti-Alzheimer potential of phlorotannin-rich extracts from brown macroalgae using cell-based models.', field: 'biology' },
+    { title: 'Metabolomics & Neuroprotection', description: 'Anti-Alzheimer potential of brown macroalgae', field: 'biology' },
     { title: 'Functional Food Development', description: 'Formulation of health-promoting functional ingredients and nutraceuticals through sustainable marine biorefinery approaches and circular bioeconomy principles.', field: 'engineering' },
 ],
 }
