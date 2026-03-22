@@ -1,0 +1,60 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { profile } from "@/settings";
+import BetterIcon from "@/components/ui/BetterIcon.astro";
+import List from "@/components/ui/List.astro";
+import {RESEARCH_ICONS} from "@/data/researchIcons";
+const { research_areas } = profile;
+---
+<Layout title="Research | Dr. Eda Şensu Demir">
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Research Statement</h1>
+    <div class="mb-12">
+      <p class="text-lg mb-6">
+       I am a food scientist specializing in the bioactive potential of marine macroalgae, with expertise in green extraction technologies, bioactive peptide characterization, and nano/micro-encapsulation. Through nationally and internationally funded projects, my research bridges marine biotechnology and food science to develop functional ingredients and nutraceuticals with demonstrated health-promoting properties.
+      </p>
+    </div>
+    <h2 class="text-2xl font-bold mb-6">Research Areas</h2>
+    <div class="grid gap-8 mb-12">
+      {
+        research_areas.map((area) => (
+          <div class="flex gap-6 items-start">
+            <BetterIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                class="size-6 stroke-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d={RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]?.path || RESEARCH_ICONS['biology'].path}
+                />
+              </svg>
+            </BetterIcon>
+            <div>
+              <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
+              <p class="text-base">{area.description}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <List listTitle="Current Projects" listItems={[
+      {
+        title: "Anti-Alzheimer Potential of Brown Macroalgae (TÜBİTAK 2219)",
+        description: "Evaluation of the neuroprotective potential of bioactive compounds obtained from brown macroalgae via a sustainable biorefinery approach using metabolomics and cell-based models, in collaboration with GEOMAR Helmholtz Centre for Ocean Research Kiel."
+      },
+      {
+        title: "Phlorotannin-Rich Extracts for Food Shelf Life (CORNET)",
+        description: "Utilization of phlorotannin-rich extracts from cultivated macroalgae to extend food shelf life and valorization of extraction wastes as animal feed, in partnership with Fraunhofer-Gesellschaft."
+      }
+    ]} />
+    <h2 class="text-2xl font-bold mb-6">Research Impact</h2>
+    <p class="text-lg mb-6">
+      My work aims to bridge marine biotechnology and food science by translating laboratory-scale discoveries into scalable, sustainable solutions. Through the development of advanced encapsulation systems and green extraction methodologies, I strive to unlock the full health-promoting potential of marine-derived bioactives — from ACE-inhibitory peptides with antihypertensive relevance to phlorotannins with neuroprotective promise — ultimately contributing to the design of functional foods and nutraceuticals grounded in rigorous scientific evidence.
+    </p>
+  </div>
+</Layout>
