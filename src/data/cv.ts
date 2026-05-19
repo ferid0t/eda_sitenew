@@ -29,7 +29,6 @@ export const education = [
 		time: '2019-2024',
 		degree: 'PhD. in Food Science and Technology',
 		location: 'İstanbul, Türkiye',
-		description: 'feritin hanımı',
 	},
 	{ school: 'Istanbul Technical University',
 		time: '2016-2019',
@@ -89,20 +88,6 @@ export const publications = [
 		link: 'https://link.springer.com/article/10.1007/s11694-024-02927-7'
 	
 	},
-	{
-	title: 'Nanoliposomal Encapsulation and Purification of Angiotensin-Converting Enzyme Inhibitor Peptides from Ulva rigida',
-	authors: 'Eda Şensu, Harun Koku, Evren Demircan, Sebahat Şişman, İbrahim Gülseren, Tuğçe Karaduman, Bilal Çakır, Emine Şükran Okudan, Gökhan Duruksu, Beraat Özçelik, Aysun Yücetepe',
-	journal: 'ACS Omega',
-	time: 'May 2025',
-	link: 'https://doi.org/10.1021/acsomega.5c00780'
-	},
-	{
-	title: 'Macroalgae-derived hydrocolloids and their applications in food industry and their health effects',
-	authors: 'Gizem Kezer, Büşra Yusupoğlu, Serap Namlı, Sara Darabidarestani, Iskandar Azmy Harahap, Eda Şensu, Esha Trivedi, Aysun Yücetepe, Zyta M. Ziora, Tuba Esatbeyoglu',
-	journal: 'European Food Research and Technology',
-	time: 'March 2026',
-	link: 'https://doi.org/10.1007/s00217-026-05084-x'
-	},
 
 	{
 	title: 'Macroalgae-derived hydrocolloids and their applications in food industry and their health effects',
@@ -111,6 +96,8 @@ export const publications = [
 	time: 'March 2026',
 	link: 'https://doi.org/10.1007/s00217-026-05084-x'
 	},
+
+
 
 	{
 	title: 'Micro-encapsulation exhibits better protection than nano-encapsulation on phenolics before and after in vitro digestion',
