@@ -8,10 +8,9 @@ plugins: [require("@tailwindcss/typography"), require("daisyui")],
 daisyui: {
 themes: [
 "valentine",
+"dark",
 "synthwave",
 "lofi",
-
 ],
 },
-darkMode: ['selector', '[data-theme="valentine"]']
 };
